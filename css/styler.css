@@ -313,9 +313,8 @@ main {
 }
 
 .production {
-  background-color: white;
-  margin: 25px 0 25px 0;
-  padding: 25px;
+  margin: 10px 0 60px 0;
+  padding-top: 30px;
 }
 
 .production {
@@ -325,16 +324,17 @@ main {
 
 .production .tab {
   float: left;
+  background: #ddd;
 }
 
 .production .tab .content {
   position: absolute;
   background-color: white;
-  left: 15px;
+  left: 0px;
   width: 95%;
   line-height: 25px;
   /* border: 1px #000 solid; */
-  margin: 25px 0 25px 0;
+  padding: 15px;
 }
 .content p {
   margin: 10px;
@@ -345,23 +345,25 @@ main {
 }
 
 .tab label {
-  margin-left: 1px;
+  margin-right: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 1rem;
+  font-weight: bold;
 }
 
 .checkboxtab:checked ~ label {
   /* border: 1px #000 solid; */
-  /* background-color: gray; */
+  background-color: #fff;
   padding: 25px 15px 15px 25px;
-  background: whitesmoke;
   border: 0px;
+  padding: 1rem;
   border-radius: 0px;
+  color: #222121;
+  font-weight: bold;
 }
 
 .checkboxtab:checked ~ .content {
-  z-index: 1;
-}
-
-.checkboxtab:checked ~ checkbox2 {
   z-index: 1;
 }
 
@@ -377,7 +379,7 @@ main {
 
 .the-blue-banner2 {
   background-color: #3f90ce;
-  height: 50px;
+  height: 60px;
   width: 100%;
   margin-top: 45px;
   color: white;
@@ -389,7 +391,8 @@ main {
 }
 .the-blue-banner2 p {
   flex: 1;
-  margin-left: 4%;
+  margin-left: 40px;
+  margin-bottom: 10px;
 }
 
 .the-blue-banner2::before {
